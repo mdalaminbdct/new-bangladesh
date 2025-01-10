@@ -50,6 +50,9 @@ nav h3{
 .banner-text{
     margin:117px 59.99px ;
 }
+.banner-text h4{
+    color: rgb(14, 14, 14, 50%);
+}
 .banner-img{ 
     width: 474.03px;
     height: 400px;
@@ -67,7 +70,95 @@ nav h3{
     font-weight: bold;
     margin-top: 16px;
     margin-bottom: 24px;
-       
 }
 
+/* Future title style  */
+
+
+.future{
+    height: 765px;
+}
+
+.future-title h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+.future-title p{
+    font-size: 16px;
+    color: rgb(14, 14, 14, 70%);
+}
+/* Future card style  */
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+    margin-top: 32px;
+
+}
+
+.card-box{
+    border-radius: 16px;
+    padding: 32px;
+    
+    
+}
+.card-img{
+    width: 62px;
+    height: 62px;
+    
+}
+.card-box h5{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(14, 14, 14, 70%);
+    margin: 24px 0;
+
+    
+}
+.card-box p{
+    font-size: 16px;
+    color: rgb(14, 14, 14, 70%);
+    margin-bottom:24px ;
+    
+
+}
+
+.blue{
+    background-color: rgb(84, 144, 245, 20%);
+
+}
+.green{
+    background-color: rgb(198, 228, 214, 100%);
+}
+
+.yellow{
+    background-color: rgb(247, 235, 207, 100%);
+}
+.card-btn1{
+    padding:11px 20px;
+    background-color: #5490F5;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+
+}
+.card-btn2{
+    padding:11px 20px;
+    background-color: #09A15C;
+    color: white;
+    border-radius: 8px;
+    border: none;
+
+}
+.card-btn3{
+    padding:11px 20px;
+    background-color: #FFC239;
+    color: white;
+    border-radius: 8px;
+    border: none;
+
+}
 
