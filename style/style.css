@@ -38,6 +38,13 @@ nav h3{
     font-weight:600px ;
     font-size: 18px;
 }
+
+.nav-btn:hover{
+    background-color: #006A50;
+    color: white;
+
+
+}
 /* Banner Section */
 .banner{
     background-color: #C6E4D6;
@@ -63,6 +70,11 @@ nav h3{
     border-radius: 8px;
     background-color:#006A50 ;
     color: white;
+
+}
+.banner-btn:hover{
+    background-color: white;
+    color: #006A50;
 
 }
 .banner-subtitle{
@@ -145,6 +157,10 @@ nav h3{
     margin-top: 20px;
 
 }
+.card-btn1:hover{
+    background-color: aqua;
+    color: black;
+}
 .card-btn2{
     padding:11px 20px;
     background-color: #09A15C;
@@ -153,6 +169,10 @@ nav h3{
     border: none;
 
 }
+.card-btn2:hover{
+    background-color: #ffffff;
+    color: black;
+}
 .card-btn3{
     padding:11px 20px;
     background-color: #FFC239;
@@ -160,6 +180,10 @@ nav h3{
     border-radius: 8px;
     border: none;
 
+}
+.card-btn3:hover{
+    background-color: #5490F5;
+    color: black;
 }
 
 .yunus{
@@ -236,8 +260,111 @@ nav h3{
     padding: 13px 26px;
 
 }
+.news-btn:hover{
+    background-color: red;
+    color: black;
+}
 
 .news-box-reverse{
     flex-direction: row-reverse;
 }
+
+/* ---------donate css------ */
+.donate h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+.donate p{
+    color: rgb(14, 14, 14, 70%);
+    margin: 0 150px;
+    text-align: center;
+}
+.donate-card{
+    display: flex;
+    gap: 24px;
+    margin: 32px;
+    justify-content:center;
+    
+}
+.donate-card-taka{
+    border-radius: 16px;
+    padding: 40px;
+    background-color: white;
+}
+.donate-card-taka:hover{
+    background-color: #C6E4D6;
+}
+
+input[type="text"]{
+    width: 700px;
+    
+    text-align: center;
+    padding:20px 40px;
+
+
+}
+
+.donate-box{
+    text-align: center;
+}
+.donatebtn{
+    padding: 17px 34px;
+    background-color:#006A50 ;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    
+  
+}
+.donate-btn{
+    text-align: center;
+    margin-top: 32px;
+}
+.donatebtn:hover{
+    background-color:black;
+    color: white;
+}
+
+/* Subscribe style */
+
+.subscribe h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.subscribe{
+    text-align: center;
+    background-color: #C6E4D6;
+    margin: 80px 0;
+    padding: 80px 265px;
+    border-radius: 24px;
+}
+.subscribe p{
+    font-size: 16px;
+    color: rgb(14, 14, 14, 70%)
+}
+.subscribe-content{
+    margin: 24px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-btn{
+    padding: 17px 34px;
+    background-color:#006A50 ;
+    text-align: center;
+    color: white;
+    border-radius:0 8px 8px 0;
+
+}
+.subscribe-content input{
+    width: 600px;
+    border-radius: 8px 0 0 8px;
+    border: none;
+    padding: 12px;
+}
+
+
 
