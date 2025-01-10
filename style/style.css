@@ -1,0 +1,73 @@
+/* font css only */
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body{
+    background-color: #F1F1F3;
+  }
+  
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Shared Style */
+.container{
+    width:1280px ;
+    margin: 0 auto;
+      
+}
+/* navigation style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100px ;
+}
+nav h3{
+    font-weight: bold;
+    font-size: 32px;
+}
+.nav-btn{
+    padding: 15px 30px;
+    color: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    font-weight:600px ;
+    font-size: 18px;
+}
+/* Banner Section */
+.banner{
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: space-between;
+    height:560px ;
+    align-items: center;
+    border-radius: 24px;
+}
+.banner-text{
+    margin:117px 59.99px ;
+}
+.banner-img{ 
+    width: 474.03px;
+    height: 400px;
+}
+.banner-btn{
+    padding: 17px 34px;
+    border: none;
+    border-radius: 8px;
+    background-color:#006A50 ;
+    color: white;
+
+}
+.banner-subtitle{
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 24px;
+       
+}
+
+
