@@ -162,3 +162,82 @@ nav h3{
 
 }
 
+.yunus{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: white;
+    border-radius: 16px;
+    border:none;
+    margin-top: 32px; 
+    padding: 48px 24px;
+
+}
+.yunus p{
+    font-size: 16px;
+    color: rgb(14, 14, 14, 80%)
+}
+.yunus h3{
+    padding: 10px 0px;
+}
+
+/* News Style */
+.news{
+    margin-top:20px;
+}
+.news-title h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+.news-title p{
+    font-size: 16px;
+    color: rgb(14, 14, 14, 70%);
+    margin-top: 24px;
+    margin-bottom: 32px;
+
+}
+
+
+.news-box{
+    background-color: white;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 42px;
+    margin: 12px 0px;
+}
+.news-box-img img{
+    /* width: 408px;
+    height: 306px; */
+    border-radius: 24px;
+}
+.news-box-content img{
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+}
+.news-box-content h3{
+    font-size: 32px;
+    font-weight: bold;
+}
+.news-box-content p{
+    font-size: 18px;
+    color: rgb(14, 14, 14, 70%);
+    margin-top: 12px;
+    margin-bottom: 20px;
+
+}
+.news-btn{
+    color: white;
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+    padding: 13px 26px;
+
+}
+
+.news-box-reverse{
+    flex-direction: row-reverse;
+}
+
