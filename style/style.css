@@ -359,6 +359,10 @@ input[type="text"]{
     border-radius:0 8px 8px 0;
 
 }
+.sub-btn:hover{
+    color: black;
+    background-color: white;
+}
 .subscribe-content input{
     width: 600px;
     border-radius: 8px 0 0 8px;
@@ -366,5 +370,37 @@ input[type="text"]{
     padding: 12px;
 }
 
+
+/* --------footer section----- */
+
+footer{
+    background-color:#ffffff ;
+    padding: ;
+    
+}
+footer h3{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding: 32px;
+
+    
+}
+hr{
+    width: 60%;
+    margin: 0 200px;
+    color: rgb(14, 14, 14, 10%)
+
+}
+
+.img-icon{
+   
+    display: flex;
+    justify-content: center;
+    gap: 23px
+}
+.img-icon img{
+    padding: 30px 0 ;
+}
 
 
